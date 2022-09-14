@@ -7,6 +7,18 @@ assignees: ''
 
 ---
 
+**Context/Theme**
+Please tick one or severals:
+- [ ] Integrated (OceanOPS) 
+- [ ] Argo 
+- [ ] DBCP 
+- [ ] SOT 
+- [ ] GO-SHIP 
+- [ ] OceanSITES 
+- [ ] GLOSS 
+- [ ] OceanGliders 
+- [ ] Other (please specify)
+
 **Is your feature request related to a problem? Please describe.**
 A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
 
