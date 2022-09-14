@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 **Context/Theme**
-Please keep one or severals:
+Keep applicable option(s):
 - Integrated (OceanOPS) 
 - Argo 
 - DBCP 
