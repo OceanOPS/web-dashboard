@@ -8,16 +8,16 @@ assignees: ''
 ---
 
 **Context/Theme**
-Please tick one or severals:
-- [ ] Integrated (OceanOPS) 
-- [ ] Argo 
-- [ ] DBCP 
-- [ ] SOT 
-- [ ] GO-SHIP 
-- [ ] OceanSITES 
-- [ ] GLOSS 
-- [ ] OceanGliders 
-- [ ] Other (please specify)
+Keep applicable option(s):
+- Integrated (OceanOPS) 
+- Argo 
+- DBCP 
+- SOT 
+- GO-SHIP 
+- OceanSITES 
+- GLOSS 
+- OceanGliders 
+- Other (please specify)
 
 **Describe the bug**
 A clear and concise description of what the bug is.
