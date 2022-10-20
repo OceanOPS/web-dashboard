@@ -1,0 +1,79 @@
+name: Bug Report
+description: File a bug report
+title: "[Brief bug description]"
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This bug report will be analysed, put into the correct project/repository and processed by our team. 
+        Please be as much accurate as possible to optimise our response time on it.
+  - type: dropdown
+    id: context
+    attributes:
+      label: Context/theme
+      description: To which context/theme this bug applies?
+      multiple: true
+      options:
+        - Integrated (OceanOPS) 
+        - Argo 
+        - DBCP 
+        - SOT 
+        - GO-SHIP 
+        - OceanSITES 
+        - GLOSS 
+        - OceanGliders 
+        - Other (please specify)
+    validations:
+      required: true
+  - type: input
+    id: context-other
+    attributes:
+      label: Other context (if applicable)
+      description: If 'Other' selected above, please specify it here.
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+    validations:
+      required: true
+  - type: textarea
+    id: to-reproduce
+    attributes:
+      label: To reproduce
+      description: Steps to reproduce the behaviour
+      placeholder: |
+        Steps to reproduce the behavior:
+          1. Go to '...'
+          2. Click on '....'
+          3. Scroll down to '....'
+          4. See error
+  - type: textarea
+    id: expected-behaviour
+    attributes:
+      label: Expected behaviour
+      description: A clear and concise description of what you expected to happen.
+  - type: input
+    id: browsing-information
+    attributes:
+      label: Software/browsing information
+      description: Any information regarding what you used as a software to create this bug.
+      placeholder:  Browser [e.g. chrome, safari] (Version [e.g. 22])
+  - type: textarea
+    id: other-information
+    attributes:
+      label: Other information
+      description: Add any other information that you think can guide us into analyzing this issue.
+  - type: markdown
+    id: priority
+    attributes:
+      value: |
+        ## Priority
+        If blocking, please select the corresponding label.
+  - type: markdown
+    id: screenshots
+    attributes:
+      value: |
+        ## Screenshot
+        If applicable, add screenshots as comment to this issue to help explain your problem.
