@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: OceanOPS metadata documentation
+    url: httos://ocean-ops.org/metadata
+    about: OceanOPS metadata documentation.
+  - name: OceanOPS metadata team
+    url: mailto:metadata@ocean-ops.org
+    about: For metadata-related questions.
+  - name: OceanOPS dev team
+    url: mailto:dev@ocean-ops.org
+    about: For IT-related questions.
+  - name: OceanOPS support team
+    url: mailto:support@ocean-ops.org
+    about: For any other questions.
